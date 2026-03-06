@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meridian Medical Center</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="index.css"
+</head>
+<body>
+
+<!-- EMERGENCY BANNER -->
+<div class="emergency-banner">
+  🚨 24/7 Emergency Services — Call <span>📞 1-800-MERIDIAN</span>
+</div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#" class="logo">
+    <div class="logo-icon">
+      <svg viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zm-7 14H9v-4H7v-2h2V9h3v2h2v2h-2v4zm-2-8V7h2v2h-2z"/></svg>
+    </div>
+    <span>
+      <span class="logo-text">Meridian</span>
+      <span class="logo-sub">Medical Center</span>
+    </span>
+  </a>
+  <ul id="nav-links">
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="doctors.html">Doctors</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="#appointment" class="nav-cta">Book Appointment</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-left">
+    <div class="hero-badge"><span></span> Accredited Center of Excellence</div>
+    <h1>Your Health Is Our <em>Greatest</em> Priority</h1>
+    <p class="hero-desc">World-class care, compassionate physicians, and cutting-edge technology — all under one roof. Because every patient deserves exceptional treatment.</p>
+    <div class="hero-actions">
+      <a href="#appointment" class="btn-primary">Book an Appointment</a>
+      <a href="#services" class="btn-secondary">
+        <span class="arrow">→</span> Explore Services
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-num">25<span>+</span></div>
+        <div class="stat-label">Years of Care</div>
+      </div>
+      <div>
+        <div class="stat-num">150<span>+</span></div>
+        <div class="stat-label">Specialists</div>
+      </div>
+      <div>
+        <div class="stat-num">98<span>%</span></div>
+        <div class="stat-label">Patient Satisfaction</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-card-main">
+      <h3>Our Departments</h3>
+      <div class="dept-grid">
+        <div class="dept-item"><div class="dept-icon">🫀</div><div class="dept-name">Cardiology</div><div class="dept-count">24 Specialists</div></div>
+        <div class="dept-item"><div class="dept-icon">🧠</div><div class="dept-name">Neurology</div><div class="dept-count">18 Specialists</div></div>
+        <div class="dept-item"><div class="dept-icon">🦴</div><div class="dept-name">Orthopedics</div><div class="dept-count">20 Specialists</div></div>
+        <div class="dept-item"><div class="dept-icon">👁️</div><div class="dept-name">Ophthalmology</div><div class="dept-count">12 Specialists</div></div>
+        <div class="dept-item"><div class="dept-icon">🧬</div><div class="dept-name">Oncology</div><div class="dept-count">16 Specialists</div></div>
+        <div class="dept-item"><div class="dept-icon">👶</div><div class="dept-name">Pediatrics</div><div class="dept-count">22 Specialists</div></div>
+      </div>
+    </div>
+    <div class="floating-badge">
+      <span class="big">★ 4.9</span>
+      Google Rating
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-inner">
+    <div class="about-visual">
+      <div class="about-img-block">
+        <svg viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zm-7 14H9v-4H7v-2h2V9h3v2h2v2h-2v4zm-2-8V7h2v2h-2z"/></svg>
+      </div>
+      <div class="about-img-overlay">
+        <div class="big-num">200+</div>
+        <p>Beds & ICU Units Available</p>
+      </div>
+    </div>
+    <div class="about-text">
+      <div class="section-label">About Us</div>
+      <h2 class="section-title">Healing With <em>Heart</em> Since 1999</h2>
+      <p>Meridian Medical Center was founded on a single belief: that exceptional healthcare should be accessible, compassionate, and driven by evidence. For over two decades, we've served our community with integrity.</p>
+      <p>Our state-of-the-art facility features advanced diagnostic imaging, robotic surgery suites, and dedicated intensive care units staffed around the clock by board-certified physicians.</p>
+      <ul class="about-points">
+        <li>Joint Commission Gold Seal of Approval</li>
+        <li>Advanced robotic-assisted surgical systems</li>
+        <li>24/7 Level I Trauma & Emergency Center</li>
+        <li>Comprehensive cancer care continuum</li>
+        <li>Nationally recognized for patient safety</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="services-header">
+    <div>
+      <div class="section-label">What We Offer</div>
+      <h2 class="section-title">Comprehensive <em>Medical</em> Services</h2>
+    </div>
+    <a href="#appointment" class="btn-primary">View All Services</a>
+  </div>
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="service-icon">🫀</div>
+      <h3>Cardiology</h3>
+      <p>Advanced diagnosis and treatment for all heart conditions. From non-invasive imaging to complex cardiac surgery with our renowned team.</p>
+      <a href="#" class="service-link">Learn More →</a>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🧠</div>
+      <h3>Neurosciences</h3>
+      <p>Pioneering treatment for neurological disorders including stroke, epilepsy, Parkinson's, and brain tumors using the latest technology.</p>
+      <a href="#" class="service-link">Learn More →</a>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🏥</div>
+      <h3>Emergency & Trauma</h3>
+      <p>Level I Trauma Center open 24/7. Our rapid-response teams are ready to handle life-threatening emergencies with precision and speed.</p>
+      <a href="#" class="service-link">Learn More →</a>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🧬</div>
+      <h3>Oncology & Cancer Care</h3>
+      <p>Comprehensive cancer diagnosis, chemotherapy, immunotherapy, and radiation services. Personalized treatment plans for every patient.</p>
+      <a href="#" class="service-link">Learn More →</a>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">🦴</div>
+      <h3>Orthopedics & Spine</h3>
+      <p>Full spectrum of musculoskeletal care — from sports injuries to joint replacements and complex spinal surgeries with robotic assistance.</p>
+      <a href="#" class="service-link">Learn More →</a>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">👶</div>
+      <h3>Women & Child Health</h3>
+      <p>Dedicated NICU, maternal care, and pediatric specialists providing a nurturing environment for mothers and their children at every stage.</p>
+      <a href="#" class="service-link">Learn More →</a>
+    </div>
+  </div>
+</section>
+
+<!-- DOCTORS -->
+<section class="doctors" id="doctors">
+  <div class="section-label">Our Experts</div>
+  <h2 class="section-title">Meet Our <em>Physicians</em></h2>
+  <div class="doctors-grid">
+    <div class="doctor-card">
+      <div class="doctor-avatar">👨‍⚕️<div class="doctor-badge">Cardiology</div></div>
+      <div class="doctor-info">
+        <h4>Dr. James Hartwell</h4>
+        <div class="spec">Chief of Cardiology</div>
+        <div class="doctor-meta"><span>Exp: <strong>22 yrs</strong></span><span>Rating: <strong>★ 4.9</strong></span></div>
+      </div>
+    </div>
+    <div class="doctor-card">
+      <div class="doctor-avatar">👩‍⚕️<div class="doctor-badge">Neurology</div></div>
+      <div class="doctor-info">
+        <h4>Dr. Sarah Okafor</h4>
+        <div class="spec">Head of Neurology</div>
+        <div class="doctor-meta"><span>Exp: <strong>18 yrs</strong></span><span>Rating: <strong>★ 4.8</strong></span></div>
+      </div>
+    </div>
+    <div class="doctor-card">
+      <div class="doctor-avatar">👨‍⚕️<div class="doctor-badge">Oncology</div></div>
+      <div class="doctor-info">
+        <h4>Dr. Marco Ferreira</h4>
+        <div class="spec">Senior Oncologist</div>
+        <div class="doctor-meta"><span>Exp: <strong>20 yrs</strong></span><span>Rating: <strong>★ 5.0</strong></span></div>
+      </div>
+    </div>
+    <div class="doctor-card">
+      <div class="doctor-avatar">👩‍⚕️<div class="doctor-badge">Pediatrics</div></div>
+      <div class="doctor-info">
+        <h4>Dr. Priya Anand</h4>
+        <div class="spec">Director of Pediatrics</div>
+        <div class="doctor-meta"><span>Exp: <strong>15 yrs</strong></span><span>Rating: <strong>★ 4.9</strong></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- APPOINTMENT -->
+<section class="appointment" id="appointment">
+  <div class="appt-inner">
+    <div>
+      <div class="section-label">Book Now</div>
+      <h2 class="section-title">Schedule Your <em>Appointment</em></h2>
+      <p class="about-text" style="color:#6b7280; line-height:1.8; margin:18px 0 36px; font-size:1rem;">Get priority access to our specialist doctors. Same-day appointments available for urgent cases. We'll confirm your booking within 30 minutes.</p>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div><h5>Emergency Hotline</h5><p>1-800-MERIDIAN</p></div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div><h5>Our Location</h5><p>1200 Health Blvd, Suite 100</p></div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🕐</div>
+          <div><h5>Working Hours</h5><p>Mon–Sun: 6 AM – 10 PM | ER 24/7</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="appt-form-wrap">
+      <h3>Book an Appointment</h3>
+      <div class="form-row">
+        <div class="form-group"><label>First Name</label><input type="text" placeholder="John"/></div>
+        <div class="form-group"><label>Last Name</label><input type="text" placeholder="Doe"/></div>
+      </div>
+      <div class="form-row">
+        <div class="form-group"><label>Phone Number</label><input type="tel" placeholder="+1 (555) 000-0000"/></div>
+        <div class="form-group"><label>Email Address</label><input type="email" placeholder="john@email.com"/></div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label>Department</label>
+          <select>
+            <option>Select Department</option>
+            <option>Cardiology</option>
+            <option>Neurology</option>
+            <option>Orthopedics</option>
+            <option>Oncology</option>
+            <option>Pediatrics</option>
+            <option>Emergency</option>
+          </select>
+        </div>
+        <div class="form-group"><label>Preferred Date</label><input type="date"/></div>
+      </div>
+      <button class="form-submit" onclick="submitAppt()">Confirm Appointment →</button>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials" id="testimonials">
+  <div style="text-align:center; margin-bottom:56px;">
+    <div class="section-label" style="text-align:center;">Patient Stories</div>
+    <h2 class="section-title">What Our Patients <em>Say</em></h2>
+  </div>
+  <div class="test-grid">
+    <div class="test-card">
+      <div class="stars">★★★★★</div>
+      <div class="test-quote">"</div>
+      <p>After my cardiac procedure at Meridian, I was back home within three days. The team was extraordinary — attentive, skilled, and genuinely caring. I couldn't have asked for better treatment.</p>
+      <div class="test-author">
+        <div class="test-avatar">😊</div>
+        <div><h5>Robert Chen</h5><span>Cardiac Patient, 2024</span></div>
+      </div>
+    </div>
+    <div class="test-card">
+      <div class="stars">★★★★★</div>
+      <div class="test-quote">"</div>
+      <p>Dr. Okafor's expertise in neurology quite literally changed my daughter's life. From diagnosis to recovery, every step was handled with precision and compassion. We are forever grateful.</p>
+      <div class="test-author">
+        <div class="test-avatar">👩</div>
+        <div><h5>Maria Santos</h5><span>Parent, Pediatric Neurology</span></div>
+      </div>
+    </div>
+    <div class="test-card">
+      <div class="stars">★★★★★</div>
+      <div class="test-quote">"</div>
+      <p>The oncology department gave me hope when I needed it most. The personalized care plan, the support staff, and the cutting-edge treatments made all the difference in my journey.</p>
+      <div class="test-author">
+        <div class="test-avatar">🧑</div>
+        <div><h5>David Williams</h5><span>Oncology Patient, 2023</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <a href="#" class="logo" style="margin-bottom:4px; display:inline-flex;">
+        <div class="logo-icon"><svg viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zm-7 14H9v-4H7v-2h2V9h3v2h2v2h-2v4zm-2-8V7h2v2h-2z"/></svg></div>
+        <span><span class="logo-text">Meridian</span><span class="logo-sub">Medical Center</span></span>
+      </a>
+      <p>Dedicated to advancing human health through innovation, compassion, and excellence in medical care since 1999.</p>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#">Cardiology</a></li>
+        <li><a href="#">Neurology</a></li>
+        <li><a href="#">Oncology</a></li>
+        <li><a href="#">Orthopedics</a></li>
+        <li><a href="#">Pediatrics</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Hospital</h4>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Our Doctors</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">News</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Support</h4>
+      <ul>
+        <li><a href="#">Patient Portal</a></li>
+        <li><a href="#">Insurance</a></li>
+        <li><a href="#">Billing</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Meridian Medical Center. All rights reserved.</p>
+    <p>Accredited by The Joint Commission</p>
+  </div>
+</footer>
+
+<!-- SUCCESS MODAL -->
+<div class="modal-overlay" id="modal">
+  <div class="modal">
+    <div style="font-size:3rem; margin-bottom:16px;">✅</div>
+    <h3>Appointment Requested!</h3>
+    <p>Thank you! Our team will confirm your appointment within 30 minutes. Please check your email for a confirmation.</p>
+    <button class="modal-close" onclick="closeModal()">Close</button>
+  </div>
+</div>
+
+<script>
+  // Nav scroll effect
+  window.addEventListener('scroll', () => {
+    const nav = document.getElementById('navbar');
+    nav.style.padding = window.scrollY > 50 ? '12px 60px' : '18px 60px';
+  });
+
+  // Hamburger
+  document.getElementById('hamburger').addEventListener('click', function () {
+    const links = document.getElementById('nav-links');
+    if (links.style.display === 'flex') {
+      links.style.display = 'none';
+    } else {
+      links.style.cssText = 'display:flex;flex-direction:column;position:absolute;top:70px;left:0;right:0;background:rgba(11,30,61,0.98);padding:24px 30px;gap:20px;';
+    }
+  });
+
+  // Smooth close nav on link click
+  document.querySelectorAll('#nav-links a').forEach(a => {
+    a.addEventListener('click', () => {
+      const links = document.getElementById('nav-links');
+      if (window.innerWidth <= 1024) links.style.display = 'none';
+    });
+  });
+
+  // Appointment submit
+  function submitAppt() {
+    document.getElementById('modal').classList.add('open');
+  }
+  function closeModal() {
+    document.getElementById('modal').classList.remove('open');
+  }
+
+  // Animate on scroll
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.style.opacity = '1';
+        e.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.12 });
+
+  document.querySelectorAll('.service-card, .doctor-card, .test-card, .about-img-block').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(32px)';
+    el.style.transition = 'opacity 0.55s ease, transform 0.55s ease';
+    observer.observe(el);
+  });
+</script>
+</body>
+</html>
